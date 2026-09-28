@@ -15,15 +15,15 @@ const Navbar = () => {
 
   return (
     <nav className='bg-transparent py-3 px-5 flex
-     items-center justify-between
-     border-b-[0.7px] border-[#C4C4C4]'>
+     items-center justify-between dark:bg-neutral-950 
+     border-b-[0.7px] border-[#C4C4C4] dark:border-gray-700'>
        <h1 className='text-2xl font-bold
         uppercase text-[#1090CB]'>LOGO
        </h1>
        <div className='items-center gap-3
         md:gap-5 hidden md:flex'>
          <Link href='/'
-         className={`text-sm relative
+         className={`text-sm dark:text-white relative
          ${pathname === '/' ? 'text-[#1090CB]' :
          'text-neutral-900'} p-1`}>
          {pathname === '/' && (
@@ -32,7 +32,7 @@ const Navbar = () => {
          )}Home
          </Link>
          <Link href='/about'
-         className={`text-sm relative
+         className={`text-sm dark:text-white relative
          ${pathname === '/about' ? 'text-[#1090CB]' :
          'text-neutral-900'} p-1`}>
          {pathname === '/about' && (
@@ -41,7 +41,7 @@ const Navbar = () => {
          )}About us
          </Link>
          <Link href='/services'
-         className={`text-sm relative
+         className={`text-sm dark:text-white relative
          ${pathname === '/services' ? 'text-[#1090CB]' :
          'text-neutral-900'} p-1`}>Services
          {pathname === '/services' && (
@@ -50,7 +50,7 @@ const Navbar = () => {
          )}
          </Link>
          <Link href='/blog'
-         className={`text-sm relative
+         className={`text-sm dark:text-white relative
          ${pathname === '/blog' ? 'text-[#1090CB]' :
          'text-neutral-900'} p-1`}>Blog
          {pathname === '/blog' && (
@@ -71,34 +71,38 @@ const Navbar = () => {
        <button
          onClick={() => {handleMenuDropdown()}}
          className="md:hidden text-xl sm:text-2xl
-         ml-3 cursor-pointer">
+         ml-3 cursor-pointer dark:text-gray-300">
           {hidden ? <FiMenu/> : <FiX/>}
        </button>
        <div
         className={`absolute ${hidden ? 'hidden' :
          'block'} top-14 left-0 w-full border-t
-         border-t-gray-300 bg-gray-950/60
+         border-t-gray-300 bg-gray-950/60 dark:border-[#3d3d3d]
          h-screen z-100 md:hidden`}
          onClick={() => setHidden(true)}>
           <div className="absolute top-0 left-0
           w-full h-[40%] bg-white p-4 flex flex-col
-          gap-y-3 rounded-b-md tracking-wide"
+          gap-y-3 rounded-b-md tracking-wide dark:bg-[#1d1d1d]"
           onClick={(e) => e.stopPropagation()}>
             <Link href={'/'} className="w-fit p-2
-            text-gray-900 rounded-xl
+            text-gray-900 dark:text-gray-400
             hover:text-[#1090CB]">
             Home</Link>
             <Link href={'/about'} className="w-fit p-2
-            text-gray-900 hover:text-[#1090CB]">
+            text-gray-900 dark:text-gray-400
+            hover:text-[#1090CB]">
             About us</Link>
             <Link href={'/services'} className="w-fit
-            p-2 text-gray-900 hover:text-[#1090CB]">
+            p-2 text-gray-900 dark:text-gray-400
+            hover:text-[#1090CB]">
             Services</Link>
             <Link href={'/blog'} className="w-fit p-2
-            text-gray-900 hover:text-[#1090CB]">
+            text-gray-900 dark:text-gray-400
+            hover:text-[#1090CB]">
             Blog</Link>
             <Link href={'/contact'} className="w-fit
-            p-2 text-gray-900 hover:text-[#1090CB]">
+            p-2 text-gray-900 dark:text-gray-400
+            hover:text-[#1090CB]">
             Contact us</Link>
           </div>
         </div>

@@ -117,7 +117,7 @@ const sliderRef = useRef<HTMLDivElement>(null);
               className="rounded-[20px]"/>
             </div>
             <h1 className="text-2xl sm:text-4xl my-5
-            font-semibold sm:my-6">
+            font-semibold sm:my-6 dark:text-white">
               Lorem Ipsum is simply dummy text of the
               printing.
             </h1>
@@ -174,7 +174,7 @@ const sliderRef = useRef<HTMLDivElement>(null);
           text of the printing.
         </h2>
         <p className="text-sm lg:text-base
-        text-gray-600">
+        text-gray-600 dark:text-gray-400">
           KODEX TECHNOLOGY (PVT) LTD is a team
           of experienced mobile and web applications
           and website builders measuring dozens of
@@ -194,11 +194,11 @@ const sliderRef = useRef<HTMLDivElement>(null);
             <rect width="54" height="5" fill="#4628A4"/>
           </svg>
           <h3 className="text-black font-semibold
-          text-lg mt-4 md:text-xl">
+          text-lg mt-4 md:text-xl dark:text-white">
             Lorem Ipsum is simply
           dummy text of the printing.</h3>
           <p className="
-          text-sm text-gray-600 my-8">
+          text-sm text-gray-600 my-8 dark:text-gray-400">
             KODEX TECHNOLOGY (PVT) LTD is a team
             of experienced mobile and web
             applications and website builders
@@ -213,10 +213,10 @@ const sliderRef = useRef<HTMLDivElement>(null);
         </div>
         <div className="bg-white p-5 grid
         grid-cols-2 gap-5 shadow-gray-200 shadow-md
-        w-full">
+        w-full dark:bg-gray-900/80 dark:shadow-gray-800">
           <div className="flex items-center gap-2">
             <div className=" p-2 md:p-3 rounded-xl
-            bg-[#FFF2F2]">
+            bg-[#FFF2F2] dark:bg-[#FF4E4E]/10">
               <svg width="41" height="41" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20.5 0C9.19561 0 0 9.19649 0 20.5C0 31.8035 9.19561 41 20.5 41C31.8044 41 41 31.8035 41 20.5C41 9.19649 31.8044 0 20.5 0ZM20.5 39.2917C10.1382 39.2917 1.70831 30.8618 1.70831 20.5C1.70831 10.1382 10.1382 1.70831 20.5 1.70831C30.8618 1.70831 39.2917 10.1382 39.2917 20.5C39.2917 30.8618 30.8618 39.2917 20.5 39.2917Z" fill="#FF4E4E"/>
                 <path d="M16.2291 8.54163H11.1041C9.69107 8.54163 8.54163 9.69107 8.54163 11.1041V16.2291C8.54163 17.6422 9.69107 18.7916 11.1041 18.7916H16.2291C17.6422 18.7916 18.7916 17.6422 18.7916 16.2291V11.1041C18.7916 9.69107 17.6422 8.54163 16.2291 8.54163ZM17.0832 16.2291C17.0832 16.7004 16.6995 17.0833 16.229 17.0833H11.104C10.6336 17.0833 10.2499 16.7005 10.2499 16.2291V11.1041C10.2499 10.6329 10.6336 10.2499 11.104 10.2499H16.229C16.6995 10.2499 17.0832 10.6328 17.0832 11.1041V16.2291Z" fill="#FF4E4E"/>
@@ -226,11 +226,11 @@ const sliderRef = useRef<HTMLDivElement>(null);
               </svg>
             </div>
             <span className="text-sm lg:text-base
-            font-semibold">Web Application</span>
+            font-semibold dark:text-white">Web Application</span>
           </div>
           <div className="flex items-center gap-2">
             <div className=" p-2 md:p-3 rounded-xl
-            bg-[#E2F3FF]">
+            bg-[#E2F3FF] dark:bg-[#0073C6]/10">
               <svg width="41" height="31" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clipPath="url(#clip0_2_1420)">
                 <path d="M21.5139 19.4871C21.2008 19.174 20.6939 19.174 20.3808 19.4871C20.0685 19.7994 20.0685 20.3063 20.3808 20.6194C20.6939 20.9317 21.2008 20.9317 21.5139 20.6194C21.8262 20.3063 21.8262 19.7994 21.5139 19.4871Z" fill="#0073C6"/>
@@ -250,12 +250,12 @@ const sliderRef = useRef<HTMLDivElement>(null);
                 </defs>
               </svg>
             </div>
-            <span className="text-sm lg:text-base
+            <span className="text-sm lg:text-base dark:text-white
             font-semibold">SEO</span>
           </div>
           <div className="flex items-center gap-2">
             <div className=" p-2 md:p-3 rounded-xl
-            bg-[#F1E8FF]">
+            bg-[#F1E8FF] dark:bg-[#6E00FA]/10">
               <svg width="22" height="40" viewBox="0 0 22 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M19.2188 0H2.5625C1.88316 0.000889888 1.23189 0.271153 0.751522 0.751522C0.271153 1.23189 0.000889888 1.88316 0 2.5625V37.1562C0.000889888 37.8356 0.271153 38.4869 0.751522 38.9672C1.23189 39.4476 1.88316 39.7179 2.5625 39.7188H19.2188C19.8981 39.7179 20.5494 39.4476 21.0297 38.9672C21.5101 38.4869 21.7804 37.8356 21.7812 37.1562V2.5625C21.7804 1.88316 21.5101 1.23189 21.0297 0.751522C20.5494 0.271153 19.8981 0.000889888 19.2188 0ZM13.8888 1.28125L13.5284 2.5625H8.18799L7.86768 1.28125H13.8888ZM20.5 37.1562C20.4996 37.4959 20.3644 37.8216 20.1242 38.0617C19.8841 38.3019 19.5584 38.4371 19.2188 38.4375H2.5625C2.22283 38.4371 1.8972 38.3019 1.65701 38.0617C1.41683 37.8216 1.28169 37.4959 1.28125 37.1562V2.5625C1.28169 2.22283 1.41683 1.8972 1.65701 1.65701C1.8972 1.41683 2.22283 1.28169 2.5625 1.28125H6.54639L7.06609 3.35848C7.10074 3.49707 7.18071 3.62011 7.2933 3.70803C7.40589 3.79596 7.54464 3.84373 7.6875 3.84375H14.0137C14.1533 3.84375 14.2891 3.79814 14.4004 3.71387C14.5117 3.6296 14.5924 3.51127 14.6303 3.37689L15.2196 1.28125H19.2188C19.5584 1.28169 19.8841 1.41683 20.1242 1.65701C20.3644 1.8972 20.4996 2.22283 20.5 2.5625V37.1562Z" fill="#6E00FA"/>
                 <path d="M7.6875 35.875H3.20312C3.03322 35.875 2.87027 35.9425 2.75013 36.0626C2.62999 36.1828 2.5625 36.3457 2.5625 36.5156C2.5625 36.6855 2.62999 36.8485 2.75013 36.9686C2.87027 37.0888 3.03322 37.1562 3.20312 37.1562H7.6875C7.8574 37.1562 8.02035 37.0888 8.14049 36.9686C8.26063 36.8485 8.32812 36.6855 8.32812 36.5156C8.32812 36.3457 8.26063 36.1828 8.14049 36.0626C8.02035 35.9425 7.8574 35.875 7.6875 35.875Z" fill="#6E00FA"/>
@@ -265,17 +265,18 @@ const sliderRef = useRef<HTMLDivElement>(null);
                 <path d="M6.54654 23.4629C6.65273 23.5956 6.80728 23.6806 6.97618 23.6994C7.14508 23.7181 7.31451 23.669 7.44718 23.5628C7.57985 23.4566 7.66491 23.302 7.68364 23.1331C7.70236 22.9642 7.65323 22.7948 7.54704 22.6621L5.30485 19.8594L7.54704 17.0566C7.59962 16.991 7.63874 16.9155 7.66218 16.8347C7.68562 16.7539 7.69291 16.6693 7.68364 16.5856C7.67436 16.502 7.64871 16.421 7.60814 16.3473C7.56757 16.2736 7.51287 16.2086 7.44718 16.156C7.38149 16.1034 7.30608 16.0643 7.22527 16.0409C7.14445 16.0174 7.05981 16.0101 6.97618 16.0194C6.89255 16.0287 6.81156 16.0543 6.73784 16.0949C6.66413 16.1355 6.59912 16.1902 6.54654 16.2559L3.98404 19.459C3.89307 19.5726 3.84351 19.7138 3.84351 19.8594C3.84351 20.0049 3.89307 20.1462 3.98404 20.2598L6.54654 23.4629Z" fill="#6E00FA"/>
               </svg>
             </div>
-            <span className="text-sm lg:text-base
+            <span className="text-sm lg:text-base dark:text-white
             font-semibold">Mobile Applications</span>
           </div>
           <div className="flex items-center gap-2">
             <div className=" p-2 md:p-3 rounded-xl
-            bg-[#FFE7FB]">
-              <svg width="29" height="33" viewBox="0 0 29 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+            bg-[#FFE7FB] dark:bg-[#910078]/10">
+              <svg width="29" height="33" viewBox="0 0 29 33"
+              fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M28.6667 30.3967V18.2134C28.6653 17.0264 27.7036 16.0648 26.5167 16.0634H25.0833V14.4982C26.0264 14.1664 26.6154 13.2272 26.503 12.2337C26.3907 11.2403 25.6065 10.4561 24.613 10.3437C23.6196 10.2314 22.6803 10.8203 22.3486 11.7634H16.4833V2.74349L18.1266 4.38678L19.14 3.37337L15.7667 0L12.3933 3.37337L13.4067 4.38678L15.05 2.74349V11.7634H9.18474C8.853 10.8203 7.91378 10.231 6.92031 10.3437C5.92685 10.4561 5.14264 11.2399 5.03031 12.2334C4.91799 13.2268 5.50693 14.1664 6.45 14.4978V16.7801H2.15C0.963021 16.7815 0.00139974 17.7431 0 18.9301V27.5301C0.00139974 28.7171 0.963021 29.6787 2.15 29.6801H6.45V31.1134H4.3V32.5467H10.0333V31.1134H7.88333V29.6801H12.1833C13.3703 29.6787 14.3319 28.7171 14.3333 27.5301V18.9301C14.3319 17.7431 13.3703 16.7815 12.1833 16.7801H7.88333V14.4982C8.49047 14.2815 8.96813 13.8039 9.18474 13.1967H22.3486C22.5652 13.8039 23.0429 14.2815 23.65 14.4978V16.0634H19.35C18.163 16.0648 17.2014 17.0264 17.2 18.2134V30.3967C17.2014 31.5837 18.163 32.5453 19.35 32.5467H26.5167C27.7036 32.5453 28.6653 31.5837 28.6667 30.3967ZM12.9 27.5301C12.8997 27.9259 12.5791 28.2464 12.1833 28.2467H2.15C1.75422 28.2464 1.43368 27.9259 1.43333 27.5301V26.0967H12.9V27.5301ZM12.1833 18.2134C12.5791 18.2138 12.8997 18.5343 12.9 18.9301V24.6634H1.43333V18.9301C1.43368 18.5343 1.75422 18.2138 2.15 18.2134H12.1833ZM7.16667 13.1967C6.77089 13.1967 6.45 12.8759 6.45 12.4801C6.45 12.0843 6.77089 11.7634 7.16667 11.7634C7.56244 11.7634 7.88333 12.0843 7.88333 12.4801C7.88298 12.8759 7.56244 13.1964 7.16667 13.1967ZM24.3667 11.7634C24.7624 11.7634 25.0833 12.0843 25.0833 12.4801C25.0833 12.8759 24.7624 13.1967 24.3667 13.1967C23.9709 13.1967 23.65 12.8759 23.65 12.4801C23.6504 12.0843 23.9709 11.7638 24.3667 11.7634ZM18.6333 18.2134C18.6337 17.8176 18.9542 17.4971 19.35 17.4967H26.5167C26.9124 17.4971 27.233 17.8176 27.2333 18.2134V27.5301H18.6333V18.2134ZM18.6333 30.3967V28.9634H27.2333V30.3967C27.233 30.7925 26.9124 31.1131 26.5167 31.1134H19.35C18.9542 31.1131 18.6337 30.7925 18.6333 30.3967Z" fill="#910078"/>
               </svg>
             </div>
-            <span className="text-sm lg:text-base
+            <span className="text-sm lg:text-base dark:text-white
             font-semibold">AV/VR</span>
           </div>
 
@@ -283,13 +284,13 @@ const sliderRef = useRef<HTMLDivElement>(null);
 
       </section>
       <section className="pl-6 my-15">
-      <h3 className="text-xl font-semibold mb-9">
+      <h3 className="text-xl font-semibold mb-9 dark:text-white">
         Our Team</h3>
       <div className='relative flex items-center group'>
         <MdChevronLeft onClick={slideLeft}
         className='bg-white rounded-full
         absolute left-0 opacity-50 hover:opacity-100
-        cursor-pointer z-10 hidden
+        cursor-pointer z-10 hidden dark:bg-gray-200/10
         group-hover:block' size={40}/>
         <div ref={sliderRef} className='w-full
         overflow-x-scroll whitespace-nowrap
@@ -306,7 +307,7 @@ const sliderRef = useRef<HTMLDivElement>(null);
             </div>
             <h3 className="text-gray-400 text-sm
             my-3">CEO</h3>
-            <h4 className="text-sm font-semibold">
+            <h4 className="text-sm font-semibold dark:text-white">
               John kabras
             </h4>
           </div>
@@ -322,7 +323,7 @@ const sliderRef = useRef<HTMLDivElement>(null);
             </div>
             <h3 className="text-gray-400 text-sm
             my-3">COO</h3>
-            <h4 className="text-sm font-semibold">
+            <h4 className="text-sm font-semibold dark:text-white">
               Phillips shene moris
             </h4>
           </div>
@@ -338,7 +339,7 @@ const sliderRef = useRef<HTMLDivElement>(null);
             </div>
             <h3 className="text-gray-400 text-sm
             my-3">Texh lead</h3>
-            <h4 className="text-sm font-semibold">
+            <h4 className="text-sm font-semibold dark:text-white">
               Equarn shamir mohomod
             </h4>
           </div>
@@ -354,14 +355,14 @@ const sliderRef = useRef<HTMLDivElement>(null);
             </div>
             <h3 className="text-gray-400 text-sm
             my-3">Head of UX</h3>
-            <h4 className="text-sm font-semibold">
+            <h4 className="text-sm font-semibold dark:text-white">
               Janka indrajith
             </h4>
           </div>
         </div>
         <MdChevronRight onClick={slideRight}
         className='bg-white rounded-full absolute
-        right-0 opacity-50 hover:opacity-100
+        right-0 opacity-50 hover:opacity-100 dark:bg-gray-200/10
         cursor-pointer z-10 hidden group-hover:block'
         size={40}/>
       </div>

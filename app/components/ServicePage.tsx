@@ -12,10 +12,10 @@ const ServicePage = () => {
   return (
     <main className="overflow-hidden">
       <section className="py-8.5 text-center w-full
-      relative bg-[#E8F4FA] h-110 px-6">
+      relative bg-[#E8F4FA] h-110 px-6 dark:bg-gray-900">
         <div className="max-w-sm mx-auto mb-12">
           <div className="bg-white rounded-full
-          p-3 w-fit mx-auto">
+          p-3 w-fit mx-auto dark:bg-gray-900">
             <Image
             src={speakerImage}
             alt="speaker"
@@ -24,7 +24,7 @@ const ServicePage = () => {
             className="w-15.25 h-15.25"/>
           </div>
           <h1 className="text-2xl font-semibold
-          my-5">
+          my-5 dark:text-white">
             Our <span className="text-[#1090CB]">
              Services</span>
           </h1>
@@ -37,7 +37,7 @@ const ServicePage = () => {
         </div>
         <div className="max-w-7xl mx-auto mt-7 p-3
         sm:p-5 bg-white grid grid-cols-2 relative
-        h-fit rounded shadow z-25">
+        h-fit rounded shadow z-25 dark:bg-neutral-900/90">
           <Image
           src={succlent}
           alt=""
@@ -47,10 +47,11 @@ const ServicePage = () => {
           lg:h-[70.19px] h-[55.19px] rotate-[54.31deg]
           absolute -top-7 right-4 lg:-top-10 md:right-8"/>
           <div className="flex gap-4 p-3 border-r
-          border-b border-[#D2D2D2]">
-            <div className="p-2 rounded-md
+          border-b border-[#D2D2D2] dark:border-neutral-800">
+            <div className="p-2 rounded-md dark:bg-[#6E00FA]/10
             bg-[#F1E8FF] hidden sm:inline-flex h-fit">
-              <svg width="33" height="33" viewBox="0 0 22 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <svg width="33" height="33" viewBox="0 0 22 40"
+              fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M19.2188 0H2.5625C1.88316 0.000889888 1.23189 0.271153 0.751522 0.751522C0.271153 1.23189 0.000889888 1.88316 0 2.5625V37.1562C0.000889888 37.8356 0.271153 38.4869 0.751522 38.9672C1.23189 39.4476 1.88316 39.7179 2.5625 39.7188H19.2188C19.8981 39.7179 20.5494 39.4476 21.0297 38.9672C21.5101 38.4869 21.7804 37.8356 21.7812 37.1562V2.5625C21.7804 1.88316 21.5101 1.23189 21.0297 0.751522C20.5494 0.271153 19.8981 0.000889888 19.2188 0ZM13.8888 1.28125L13.5284 2.5625H8.18799L7.86768 1.28125H13.8888ZM20.5 37.1562C20.4996 37.4959 20.3644 37.8216 20.1242 38.0617C19.8841 38.3019 19.5584 38.4371 19.2188 38.4375H2.5625C2.22283 38.4371 1.8972 38.3019 1.65701 38.0617C1.41683 37.8216 1.28169 37.4959 1.28125 37.1562V2.5625C1.28169 2.22283 1.41683 1.8972 1.65701 1.65701C1.8972 1.41683 2.22283 1.28169 2.5625 1.28125H6.54639L7.06609 3.35848C7.10074 3.49707 7.18071 3.62011 7.2933 3.70803C7.40589 3.79596 7.54464 3.84373 7.6875 3.84375H14.0137C14.1533 3.84375 14.2891 3.79814 14.4004 3.71387C14.5117 3.6296 14.5924 3.51127 14.6303 3.37689L15.2196 1.28125H19.2188C19.5584 1.28169 19.8841 1.41683 20.1242 1.65701C20.3644 1.8972 20.4996 2.22283 20.5 2.5625V37.1562Z" fill="#6E00FA"/>
                 <path d="M7.6875 35.875H3.20312C3.03322 35.875 2.87027 35.9425 2.75013 36.0626C2.62999 36.1828 2.5625 36.3457 2.5625 36.5156C2.5625 36.6855 2.62999 36.8485 2.75013 36.9686C2.87027 37.0888 3.03322 37.1562 3.20312 37.1562H7.6875C7.8574 37.1562 8.02035 37.0888 8.14049 36.9686C8.26063 36.8485 8.32812 36.6855 8.32812 36.5156C8.32812 36.3457 8.26063 36.1828 8.14049 36.0626C8.02035 35.9425 7.8574 35.875 7.6875 35.875Z" fill="#6E00FA"/>
                 <path d="M10.25 35.875H9.60938C9.43947 35.875 9.27652 35.9425 9.15638 36.0626C9.03624 36.1828 8.96875 36.3457 8.96875 36.5156C8.96875 36.6855 9.03624 36.8485 9.15638 36.9686C9.27652 37.0888 9.43947 37.1562 9.60938 37.1562H10.25C10.4199 37.1562 10.5829 37.0888 10.703 36.9686C10.8231 36.8485 10.8906 36.6855 10.8906 36.5156C10.8906 36.3457 10.8231 36.1828 10.703 36.0626C10.5829 35.9425 10.4199 35.875 10.25 35.875Z" fill="#6E00FA"/>
@@ -62,11 +63,11 @@ const ServicePage = () => {
             <div>
               <div className="flex items-center gap-2">
                 <h3 className="text-sm sm:text-base
-                font-semibold mb-2">
+                font-semibold mb-2 dark:text-white">
                  Mobile Applications
                 </h3>
                 <div className="p-2 rounded-md
-                bg-[#F1E8FF] sm:hidden">
+                bg-[#F1E8FF] sm:hidden dark:bg-[#6E00FA]/10">
                   <svg width="18" height="32" viewBox="0 0 22 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M19.2188 0H2.5625C1.88316 0.000889888 1.23189 0.271153 0.751522 0.751522C0.271153 1.23189 0.000889888 1.88316 0 2.5625V37.1562C0.000889888 37.8356 0.271153 38.4869 0.751522 38.9672C1.23189 39.4476 1.88316 39.7179 2.5625 39.7188H19.2188C19.8981 39.7179 20.5494 39.4476 21.0297 38.9672C21.5101 38.4869 21.7804 37.8356 21.7812 37.1562V2.5625C21.7804 1.88316 21.5101 1.23189 21.0297 0.751522C20.5494 0.271153 19.8981 0.000889888 19.2188 0ZM13.8888 1.28125L13.5284 2.5625H8.18799L7.86768 1.28125H13.8888ZM20.5 37.1562C20.4996 37.4959 20.3644 37.8216 20.1242 38.0617C19.8841 38.3019 19.5584 38.4371 19.2188 38.4375H2.5625C2.22283 38.4371 1.8972 38.3019 1.65701 38.0617C1.41683 37.8216 1.28169 37.4959 1.28125 37.1562V2.5625C1.28169 2.22283 1.41683 1.8972 1.65701 1.65701C1.8972 1.41683 2.22283 1.28169 2.5625 1.28125H6.54639L7.06609 3.35848C7.10074 3.49707 7.18071 3.62011 7.2933 3.70803C7.40589 3.79596 7.54464 3.84373 7.6875 3.84375H14.0137C14.1533 3.84375 14.2891 3.79814 14.4004 3.71387C14.5117 3.6296 14.5924 3.51127 14.6303 3.37689L15.2196 1.28125H19.2188C19.5584 1.28169 19.8841 1.41683 20.1242 1.65701C20.3644 1.8972 20.4996 2.22283 20.5 2.5625V37.1562Z" fill="#6E00FA"/>
                     <path d="M7.6875 35.875H3.20312C3.03322 35.875 2.87027 35.9425 2.75013 36.0626C2.62999 36.1828 2.5625 36.3457 2.5625 36.5156C2.5625 36.6855 2.62999 36.8485 2.75013 36.9686C2.87027 37.0888 3.03322 37.1562 3.20312 37.1562H7.6875C7.8574 37.1562 8.02035 37.0888 8.14049 36.9686C8.26063 36.8485 8.32812 36.6855 8.32812 36.5156C8.32812 36.3457 8.26063 36.1828 8.14049 36.0626C8.02035 35.9425 7.8574 35.875 7.6875 35.875Z" fill="#6E00FA"/>
@@ -84,9 +85,10 @@ const ServicePage = () => {
             </div>
           </div>
           <div className="flex gap-4 p-3 border-b
-          border-[#D2D2D2]">
+          border-[#D2D2D2] dark:border-neutral-800">
             <div className="p-2 rounded-md h-fit
-            bg-[#FFF2F2] hidden sm:inline-flex">
+            bg-[#FFF2F2] hidden sm:inline-flex
+            dark:bg-[#FF4E4E]/10">
               <svg width="33" height="33" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M20.5 0C9.19561 0 0 9.19649 0 20.5C0 31.8035 9.19561 41 20.5 41C31.8044 41 41 31.8035 41 20.5C41 9.19649 31.8044 0 20.5 0ZM20.5 39.2917C10.1382 39.2917 1.70831 30.8618 1.70831 20.5C1.70831 10.1382 10.1382 1.70831 20.5 1.70831C30.8618 1.70831 39.2917 10.1382 39.2917 20.5C39.2917 30.8618 30.8618 39.2917 20.5 39.2917Z" fill="#FF4E4E"/>
                 <path d="M16.2292 8.54163H11.1042C9.6911 8.54163 8.54166 9.69107 8.54166 11.1041V16.2291C8.54166 17.6422 9.6911 18.7916 11.1042 18.7916H16.2292C17.6422 18.7916 18.7916 17.6422 18.7916 16.2291V11.1041C18.7916 9.69107 17.6422 8.54163 16.2292 8.54163ZM17.0833 16.2291C17.0833 16.7004 16.6995 17.0833 16.2291 17.0833H11.1041C10.6336 17.0833 10.2499 16.7005 10.2499 16.2291V11.1041C10.2499 10.6329 10.6336 10.2499 11.1041 10.2499H16.2291C16.6995 10.2499 17.0833 10.6328 17.0833 11.1041V16.2291Z" fill="#FF4E4E"/>
@@ -98,11 +100,12 @@ const ServicePage = () => {
             <div>
               <div className="flex items-center gap-3">
                 <h3 className="text-sm sm:text-base
-              font-semibold mb-2">
+              font-semibold mb-2 dark:text-white">
                 Web Application
               </h3>
               <div className="p-2 rounded-md
-              bg-[#FFF2F2] sm:hidden h-fit">
+              bg-[#FFF2F2] sm:hidden h-fit
+              dark:bg-[#FF4E4E]/10">
                 <svg width="30" height="30" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path d="M20.5 0C9.19561 0 0 9.19649 0 20.5C0 31.8035 9.19561 41 20.5 41C31.8044 41 41 31.8035 41 20.5C41 9.19649 31.8044 0 20.5 0ZM20.5 39.2917C10.1382 39.2917 1.70831 30.8618 1.70831 20.5C1.70831 10.1382 10.1382 1.70831 20.5 1.70831C30.8618 1.70831 39.2917 10.1382 39.2917 20.5C39.2917 30.8618 30.8618 39.2917 20.5 39.2917Z" fill="#FF4E4E"/>
                   <path d="M16.2292 8.54163H11.1042C9.6911 8.54163 8.54166 9.69107 8.54166 11.1041V16.2291C8.54166 17.6422 9.6911 18.7916 11.1042 18.7916H16.2292C17.6422 18.7916 18.7916 17.6422 18.7916 16.2291V11.1041C18.7916 9.69107 17.6422 8.54163 16.2292 8.54163ZM17.0833 16.2291C17.0833 16.7004 16.6995 17.0833 16.2291 17.0833H11.1041C10.6336 17.0833 10.2499 16.7005 10.2499 16.2291V11.1041C10.2499 10.6329 10.6336 10.2499 11.1041 10.2499H16.2291C16.6995 10.2499 17.0833 10.6328 17.0833 11.1041V16.2291Z" fill="#FF4E4E"/>
@@ -119,9 +122,10 @@ const ServicePage = () => {
             </div>
           </div>
           <div className="flex gap-4 p-3 border-r
-          border-[#D2D2D2]">
+          border-[#D2D2D2] dark:border-neutral-800">
             <div className="p-2 rounded-md h-fit
-            bg-[#E2F3FF] hidden sm:inline-flex">
+            dark:bg-[#0073C6]/10 bg-[#E2F3FF] hidden
+            sm:inline-flex">
               <svg width="33" height="33" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clipPath="url(#clip0_2_1590)">
                 <path d="M21.5138 19.487C21.2007 19.1739 20.6938 19.1739 20.3807 19.487C20.0684 19.7993 20.0684 20.3062 20.3807 20.6193C20.6938 20.9316 21.2007 20.9316 21.5138 20.6193C21.8262 20.3062 21.8262 19.7993 21.5138 19.487Z" fill="#0073C6"/>
@@ -143,12 +147,14 @@ const ServicePage = () => {
             </div>
             <div>
               <div className="flex items-center gap-3">
-                <h3 className="text-sm sm:text-base font-semibold mb-2">
+                <h3 className="text-sm sm:text-base font-semibold mb-2
+                dark:text-white">
                 SEO
                </h3>
                 <div className="p-2 rounded-md
-               bg-[#E2F3FF] sm:hidden">
-                    <svg width="30" height="30" viewBox="0 0 41 41" fill="none" xmlns="http://www.w3.org/2000/svg">
+               bg-[#E2F3FF] sm:hidden dark:bg-[#0073C6]/10">
+                    <svg width="30" height="30" viewBox="0 0 41 41"
+                    fill="none" xmlns="http://www.w3.org/2000/svg">
                       <g clipPath="url(#clip0_2_1590)">
                       <path d="M21.5138 19.487C21.2007 19.1739 20.6938 19.1739 20.3807 19.487C20.0684 19.7993 20.0684 20.3062 20.3807 20.6193C20.6938 20.9316 21.2007 20.9316 21.5138 20.6193C21.8262 20.3062 21.8262 19.7993 21.5138 19.487Z" fill="#0073C6"/>
                       <path d="M31.7055 9.29473C30.1408 7.73008 27.6078 7.73 26.043 9.29473C24.4823 10.8554 24.4823 13.3954 26.0432 14.9574C27.6044 16.5176 30.1445 16.5182 31.7055 14.9572C33.2701 13.3926 33.2704 10.8595 31.7055 9.29473ZM30.5731 13.8247C29.6367 14.7611 28.1125 14.7611 27.1757 13.8248C26.2392 12.8877 26.2391 11.3635 27.1755 10.4272C28.1143 9.48844 29.6342 9.48828 30.5731 10.4272C31.5118 11.3659 31.512 12.8858 30.5731 13.8247Z" fill="#0073C6"/>
@@ -176,7 +182,8 @@ const ServicePage = () => {
           </div>
           <div className="flex gap-4 p-3">
             <div className="p-2 rounded-md h-fit
-            bg-[#FFE7FB] hidden sm:inline-flex">
+            bg-[#FFE7FB] hidden sm:inline-flex
+            dark:bg-[#B50097]/10">
               <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g clipPath="url(#clip0_2_1620)">
                 <path d="M15.8125 16.5C15.433 16.5 15.125 16.192 15.125 15.8125V8.9375C15.125 8.558 15.433 8.25 15.8125 8.25H17.875C19.3916 8.25 20.625 9.48337 20.625 11C20.625 12.5166 19.3916 13.75 17.875 13.75H16.5V15.8125C16.5 16.192 16.192 16.5 15.8125 16.5ZM16.5 12.375H17.875C18.634 12.375 19.25 11.7576 19.25 11C19.25 10.2424 18.634 9.625 17.875 9.625H16.5V12.375Z" fill="#B50097"/>
@@ -199,11 +206,11 @@ const ServicePage = () => {
             <div>
               <div className="flex items-center gap-3">
                 <h3 className="text-sm sm:text-base
-              font-semibold mb-2">
+              font-semibold mb-2 dark:text-white">
                 AV/VR Solutions
               </h3>
               <div className="p-2 rounded-md
-              bg-[#FFE7FB] sm:hidden">
+              bg-[#FFE7FB] sm:hidden dark:bg-[#B50097]/10">
                 <svg width="26" height="26" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <g clipPath="url(#clip0_2_1620)">
                   <path d="M15.8125 16.5C15.433 16.5 15.125 16.192 15.125 15.8125V8.9375C15.125 8.558 15.433 8.25 15.8125 8.25H17.875C19.3916 8.25 20.625 9.48337 20.625 11C20.625 12.5166 19.3916 13.75 17.875 13.75H16.5V15.8125C16.5 16.192 16.192 16.5 15.8125 16.5ZM16.5 12.375H17.875C18.634 12.375 19.25 11.7576 19.25 11C19.25 10.2424 18.634 9.625 17.875 9.625H16.5V12.375Z" fill="#B50097"/>
@@ -236,12 +243,12 @@ const ServicePage = () => {
       mx-auto flex items-center justify-between
       h-full flex-col md:flex-row max-w-7xl">
         <div className="w-[80%]">
-          <h2 className="text-2xl font-semibold">
+          <h2 className="text-2xl font-semibold dark:text-white">
             <span className="text-[#1090CB]">Lorem Ipsum </span>
             is simply dummy text of the
             printing.
           </h2>
-          <p className="text-gray-500 mt-7">
+          <p className="text-gray-500 mt-7 dark:text-gray-400">
             KODEX TECHNOLOGY (PVT) LTD is a team of
             experienced mobile and web applications
             and website builders measuring dozens of
@@ -249,7 +256,7 @@ const ServicePage = () => {
             mobile applications for several top
             platforms, including Android  & IOS. 
           </p>
-          <p className="my-6 text-gray-500">
+          <p className="my-6 text-gray-500 dark:text-gray-400">
             KODEX TECHNOLOGY (PVT) LTD is a team of
             experienced mobile and web applications
             and website builders measuring dozens 
@@ -271,7 +278,7 @@ const ServicePage = () => {
         </div>
       </section>
       <section className="bg-[#1090CB]
-      my-10 px-5 py-15 relative">
+      my-10 px-5 py-15 relative dark:bg-blue-950/80">
         <div className="w-15 h-15 md:w-19
         md:h-19 absolute -top-8 md:-top-10
         right-7 md:right-10 rotate-[15.07deg]">
@@ -357,7 +364,7 @@ const ServicePage = () => {
       </section>
       <section className="my-16 pl-6">
         <h3 className="text-xl md:text-2xl
-        lg:text-3xl font-medium">
+        lg:text-3xl font-medium dark:text-white">
           Our latest Projects
         </h3>
         <div className='relative flex group
@@ -379,22 +386,21 @@ const ServicePage = () => {
                 </div>
                 <h4 className="text-lg
                 font-semibold mb-3
-                max-w-80.25 text-wrap">
+                max-w-80.25 text-wrap dark:text-white">
                   Lorem Ipsum is simply
                   dummy text of the printing
                 </h4>
                 <p className="text-sm
                 text-[#424242] max-w-80.25
-                text-wrap">
+                text-wrap dark:text-gray-300">
                  Lorem Ipsum
                  is simply dummy text of the
                  printing and typesetting
                  industry.</p>
              </div>
              <div className="inline-block">
-                <div className="w-80.25 h-76.5
-                rounded-[45px] overflow-hidden
-                mb-5">
+                <div className="w-80.25 h-72.5
+                rounded-[45px] overflow-hidden mb-4">
                   <Image
                   src={rowImage2}
                   alt=""
@@ -403,19 +409,19 @@ const ServicePage = () => {
                   className="w-full h-full
                   object-cover"/>
                 </div>
-                <h4 className="text-lg
+                  <h4 className="text-lg
                 font-semibold mb-3 max-w-80.25
-                text-wrap">
+                text-wrap dark:text-white">
                  Lorem Ipsum is simply
                   dummy text of the printing
                 </h4>
                 <p className="text-sm
                 text-[#424242] max-w-80.25
-                text-wrap">
+                text-wrap dark:text-gray-300">
                  Lorem Ipsum
                  is simply dummy text of the
                  printing and typesetting
-                 industry. Lorem Ipsum</p>
+                 industry. Lorem Ipsum</p>             
              </div>
              <div className="inline-block">
                 <div className="w-80.25 h-76.5
@@ -431,13 +437,13 @@ const ServicePage = () => {
                 </div>
                 <h4 className="text-lg
                 font-semibold mb-3 max-w-80.25
-                text-wrap">
+                text-wrap dark:text-white">
                   Lorem Ipsum is simply
                   dummy text of the printing
                 </h4>
                 <p className="text-sm
                 text-[#424242] max-w-80.25
-                text-wrap">
+                text-wrap dark:text-gray-300">
                  Lorem Ipsum
                  is simply dummy text of the
                  printing and typesetting
@@ -457,13 +463,13 @@ const ServicePage = () => {
                 </div>
                 <h4 className="text-lg
                 font-semibold mb-3 max-w-80.25
-                text-wrap">
+                text-wrap dark:text-white">
                  Lorem Ipsum is simply
                   dummy text of the printing
                 </h4>
                 <p className="text-sm
                 text-[#424242] max-w-80.25
-                text-wrap">
+                text-wrap dark:text-gray-300">
                  Lorem Ipsum
                  is simply dummy text of the
                  printing and typesetting

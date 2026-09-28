@@ -6,7 +6,7 @@ import SubscriptionForm from "./components/SubscriptionForm";
 
 export default function Home() {
   return (
-    <div className="overflow-hidden">
+    <div className="overflow-hidden dark:bg-gray-950">
       <Navbar />
       <Hero />
       <Main />

@@ -14,19 +14,19 @@ const BlogMain = () => {
       <section className='my-10 text-center
       w-full px-6'>
         <h1 className='text-2xl font-bold
-        leading-[178%]'>
+        leading-[178%] dark:text-white'>
           Latest news <span
           className='text-[#1090CB]'>
           Updates</span>
         </h1>
         <p className='my-5 text-[#777777]
-        xl:text-lg'>
+        xl:text-lg dark:text-[#8d8d8d]'>
           Lorem Ipsum is simply dummy text of
           the printing.
         </p>
         <div className='outline-none py-2 px-3
         bg-[#F1F1F1] rounded-[10px] mx-auto
-        max-w-100 flex items-center gap-2'>
+        max-w-100 flex items-center gap-2 dark:bg-neutral-800/50'>
           <svg width="15" height="15"
           viewBox="0 0 15 15" fill="none"
           xmlns="http://www.w3.org/2000/svg">
@@ -67,26 +67,26 @@ const BlogMain = () => {
         max-w-236.5 mx-auto'>
           <div className='p-2
           rounded-full text-xs text-[#1090CB]
-          bg-[#E7EFF3] cursor-pointer'>
+          bg-[#E7EFF3] cursor-pointer dark:bg-[#1090CB]/10'>
             Lorem Ipsum
           </div>
           <div className='py-2 px-3
           rounded-full text-xs text-[#1090CB]
-          bg-[#E7EFF3] cursor-pointer'>
+          bg-[#E7EFF3] cursor-pointer dark:bg-[#1090CB]/10'>
             Lorem Ipsum
           </div>
           <div className='py-2 px-3
           rounded-full text-xs text-[#1090CB]
-          bg-[#E7EFF3] cursor-pointer'>
+          bg-[#E7EFF3] cursor-pointer dark:bg-[#1090CB]/10'>
             Lorem Ipsum
           </div>
           <div className='py-2 px-3
           rounded-full text-xs text-[#1090CB]
-          bg-[#E7EFF3] cursor-pointer'>
+          bg-[#E7EFF3] cursor-pointer dark:bg-[#1090CB]/10'>
             Lorem Ipsum
           </div>
           <div className='py-2 px-3
-          rounded-full text-xs text-white
+          rounded-full text-xs text-white dark:bg-blue-900/80
           bg-[#1090CB] cursor-pointer'>
             Lorem Ipsum
           </div>
@@ -108,9 +108,9 @@ const BlogMain = () => {
         </div>
         <div className="md:max-w-131.25">
           <h2 className="text-lg font-semibold
-          mb-7">Lorem Ipsum is simply dummy
+          mb-7 dark:text-white">Lorem Ipsum is simply dummy
             text of the printing.</h2>
-          <p className="text-sm text-[#424242]">
+          <p className="text-sm text-[#424242] dark:text-[#858585]">
             Lorem Ipsum is simply dummy text
             of the printing and typesetting
             industry. Lorem Ipsum has been the
@@ -131,7 +131,7 @@ const BlogMain = () => {
                  object-cover"/>  
                 </div>
                 <div>
-                  <h3 className="text-sm">
+                  <h3 className="text-sm dark:text-white">
                     Name here</h3>
                   <h4
                   className="text-[#7B7B7B]
@@ -162,11 +162,11 @@ const BlogMain = () => {
             object-cover"/>
           </div>
           <h2 className="md:text-[23px]
-          font-semibold">
+          font-semibold dark:text-white">
            Lorem Ipsum is simply dummy text
            of the printing.</h2>
            <p className="text-sm md:text-base
-           text-[#424242]">
+           text-[#424242] dark:text-[#858585]">
             Lorem Ipsum is simply dummy text
             of the printing and typesetting
             industry. Lorem Ipsum has been
@@ -186,7 +186,7 @@ const BlogMain = () => {
                 object-cover"/>  
             </div>
             <div>
-              <h3 className="text-sm">
+              <h3 className="text-sm dark:text-white">
               Name here</h3>
               <h4
               className="text-[#7B7B7B]
@@ -209,11 +209,11 @@ const BlogMain = () => {
             object-cover"/>
           </div>
           <h2 className="md:text-[23px]
-          font-semibold">
+          font-semibold dark:text-white">
            Lorem Ipsum is simply dummy text
            of the printing.</h2>
            <p className="text-sm md:text-base
-           text-[#424242]">
+           text-[#424242] dark:text-[#858585]">
             Lorem Ipsum is simply dummy text
             of the printing and typesetting
             industry. Lorem Ipsum has been
@@ -233,7 +233,7 @@ const BlogMain = () => {
                 object-cover"/>  
             </div>
             <div>
-              <h3 className="text-sm">
+              <h3 className="text-sm dark:text-white">
               Name here</h3>
               <h4
               className="text-[#7B7B7B]
@@ -256,11 +256,11 @@ const BlogMain = () => {
             object-cover"/>
           </div>
           <h2 className="md:text-[23px]
-          font-semibold">
+          font-semibold dark:text-white">
            Lorem Ipsum is simply dummy text
            of the printing.</h2>
            <p className="text-sm md:text-base
-           text-[#424242]">
+           text-[#424242] dark:text-[#858585]">
             Lorem Ipsum is simply dummy text
             of the printing and typesetting
             industry. Lorem Ipsum has been
@@ -280,7 +280,7 @@ const BlogMain = () => {
                 object-cover"/>  
             </div>
             <div>
-              <h3 className="text-sm">
+              <h3 className="text-sm dark:text-white">
               Name here</h3>
               <h4
               className="text-[#7B7B7B]
@@ -303,11 +303,11 @@ const BlogMain = () => {
             object-cover"/>
           </div>
           <h2 className="md:text-[23px]
-          font-semibold">
+          font-semibold dark:text-white">
            Lorem Ipsum is simply dummy text
            of the printing.</h2>
            <p className="text-sm md:text-base
-           text-[#424242]">
+           text-[#424242] dark:text-[#858585]">
             Lorem Ipsum is simply dummy text
             of the printing and typesetting
             industry. Lorem Ipsum has been
@@ -327,7 +327,7 @@ const BlogMain = () => {
                 object-cover"/>  
             </div>
             <div>
-              <h3 className="text-sm">
+              <h3 className="text-sm dark:text-white">
               Name here</h3>
               <h4
               className="text-[#7B7B7B]
@@ -350,11 +350,11 @@ const BlogMain = () => {
             object-cover"/>
           </div>
           <h2 className="md:text-[23px]
-          font-semibold">
+          font-semibold dark:text-white">
            Lorem Ipsum is simply dummy text
            of the printing.</h2>
            <p className="text-sm md:text-base
-           text-[#424242]">
+           text-[#424242] dark:text-[#858585]">
             Lorem Ipsum is simply dummy text
             of the printing and typesetting
             industry. Lorem Ipsum has been
@@ -374,7 +374,7 @@ const BlogMain = () => {
                 object-cover"/>  
             </div>
             <div>
-              <h3 className="text-sm">
+              <h3 className="text-sm dark:text-white">
               Name here</h3>
               <h4
               className="text-[#7B7B7B]
@@ -397,11 +397,11 @@ const BlogMain = () => {
             object-cover"/>
           </div>
           <h2 className="md:text-[23px]
-          font-semibold">
+          font-semibold dark:text-white">
            Lorem Ipsum is simply dummy text
            of the printing.</h2>
            <p className="text-sm md:text-base
-           text-[#424242]">
+           text-[#424242] dark:text-[#858585]">
             Lorem Ipsum is simply dummy text
             of the printing and typesetting
             industry. Lorem Ipsum has been
@@ -421,7 +421,7 @@ const BlogMain = () => {
                 object-cover"/>  
             </div>
             <div>
-              <h3 className="text-sm">
+              <h3 className="text-sm dark:text-white">
               Name here</h3>
               <h4
               className="text-[#7B7B7B]

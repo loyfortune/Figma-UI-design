@@ -8,7 +8,7 @@ const Hero = () => {
   return (
     <section className="bg-[#E8F4FA] flex flex-row py-10
     px-8 justify-center items-center gap-4 md:gap-10
-    relative w-full overflow-visible z-10
+    relative w-full overflow-visible z-10 dark:bg-gray-900
     scrollbar-none">
       <div className="absolute top-14 -right-109
       w-115.75 sm:w-118.75 h-137.75 z-25">
@@ -50,7 +50,7 @@ const Hero = () => {
       <div className="absolute left-0 top-12
        w-70 h-70 rounded-full z-0 from-0% to-100%
        text-transparent bg-conic blur-xl
-       via-50% via-purple-50">.</div>
+       via-50% via-purple-50 dark:hidden">.</div>
       <Image src={succlent} alt="succlent"
         className="w-8 h-8 object-cover absolute
         top-1.5 left-6 z-10 sm:hidden"
@@ -70,14 +70,14 @@ const Hero = () => {
         <div className='text-left space-y-6
          lg:space-y-10 relative'>
           <h1 className='text-2xl sm:text-3xl lg:text-4xl
-          font-bold'>
+          font-bold dark:text-white'>
             Experienced <span
             className='text-[#1090CB]'>
               mobile and web </span>
               applications and website builders measuring.
           </h1>
           <p className='text-sm sm:text-base lg:text-lg
-          text-neutral-700'>
+          text-neutral-700 dark:text-neutral-500'>
             KODEX TECHNOLOGY (PVT) LTD is a team of
             experienced mobile and web applications
             and website builders measuring dozens of
@@ -104,7 +104,7 @@ const Hero = () => {
         <div className="absolute left-27 top-4
         w-60 h-60 rounded-full z-0 from-0% to-100%
         text-transparent bg-conic blur-xl
-        via-50% via-amber-50">.</div>
+        via-50% via-amber-50 dark:hidden">.</div>
         <Image src={succlent} alt="succlent"
         className="w-16.5 h-16.5 object-cover absolute
         top-15 left-12 z-10 hidden sm:block"

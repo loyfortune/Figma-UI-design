@@ -5,12 +5,12 @@ import SubscriptionForm from "../components/SubscriptionForm"
 
 const page = () => {
   return (
-    <>
+    <div className="dark:bg-gray-950 overflow-hidden">
     <Navbar />
     <BlogMain />
     <SubscriptionForm />
     <Footer />
-    </>
+    </div>
   )
 }
 

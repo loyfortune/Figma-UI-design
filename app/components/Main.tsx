@@ -15,17 +15,17 @@ const Main = () => {
       <div className='bg-transparent p-4 grid-cols-2
        grid md:flex md:items-center md:justify-center
        gap-6 xl:justify-between max-w-7xl mx-auto border-b
-       border-gray-300 mb-8'>
+       border-gray-300 mb-8 dark:border-gray-800'>
          <div className='flex items-center gap-2'>
            <span className='bg-[#EFEAFF] rounded-xl
-           p-3 md:p-4'>
+           p-3 md:p-4 dark:bg-[#4628A4]/10'>
              <svg width="39" height="39" viewBox="0 0 39 39" fill="none" xmlns="http://www.w3.org/2000/svg">
              <path d="M37.7969 0H0.640625C0.470721 0 0.307775 0.0674942 0.187635 0.187635C0.0674942 0.307775 0 0.470721 0 0.640625V32.0312C0 32.2012 0.0674942 32.3641 0.187635 32.4842C0.307775 32.6044 0.470721 32.6719 0.640625 32.6719H25.6577C25.8233 34.3061 26.6104 35.8142 27.8562 36.8847C29.1021 37.9551 30.7115 38.5062 32.352 38.4239C33.9925 38.3417 35.5387 37.6325 36.6713 36.4428C37.8038 35.2531 38.4361 33.6738 38.4375 32.0312V0.640625C38.4375 0.470721 38.37 0.307775 38.2499 0.187635C38.1297 0.0674942 37.9668 0 37.7969 0ZM32.0312 37.1562C31.0176 37.1562 30.0268 36.8557 29.184 36.2925C28.3412 35.7294 27.6843 34.929 27.2964 33.9925C26.9085 33.056 26.807 32.0256 27.0047 31.0314C27.2025 30.0373 27.6906 29.1241 28.4073 28.4073C29.1241 27.6906 30.0373 27.2025 31.0314 27.0047C32.0256 26.807 33.056 26.9085 33.9925 27.2964C34.929 27.6843 35.7294 28.3411 36.2925 29.184C36.8557 30.0268 37.1562 31.0176 37.1562 32.0312C37.1547 33.39 36.6143 34.6927 35.6535 35.6535C34.6927 36.6143 33.39 37.1547 32.0312 37.1562ZM26.4918 28.8281H20.5V7.6875H34.5938V26.1638C33.1524 25.5308 31.528 25.4527 30.0325 25.9444C28.5371 26.4362 27.2761 27.4632 26.4918 28.8281ZM37.1562 28.2042C36.7918 27.7174 36.3604 27.2846 35.875 26.9184V7.04687C35.875 6.87697 35.8075 6.71402 35.6874 6.59388C35.5672 6.47374 35.4043 6.40625 35.2344 6.40625H19.8594C19.6895 6.40625 19.5265 6.47374 19.4064 6.59388C19.2862 6.71402 19.2188 6.87697 19.2188 7.04687V29.4687C19.2188 29.6387 19.2862 29.8016 19.4064 29.9217C19.5265 30.0419 19.6895 30.1094 19.8594 30.1094H25.9203C25.7888 30.5262 25.7008 30.9556 25.6577 31.3906H1.28125V5.125H37.1562V28.2042ZM37.1562 3.84375H1.28125V1.28125H37.1562V3.84375Z" fill="#4628A4"/>
              </svg>
             </span>
             <div>
               <p className='font-bold text-sm lg:text-base
-              mb-1'>
+              mb-1 dark:text-white'>
                 Web Application
               </p>
               <p className='text-gray-400 text-xs
@@ -35,7 +35,7 @@ const Main = () => {
          </div>
          <div className='flex items-center gap-2'>
            <span className='bg-[#ECFFDA] rounded-xl
-           p-3 md:p-4'>
+           p-3 md:p-4 dark:bg-[#5FC400]/10'>
              <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M31.7197 15.6592L17.5987 1.53809C16.6069 0.546399 15.2885 0 13.886 0H3.00003C1.34543 0 0 1.34543 0 3.00003V13.886C0 15.2886 0.546399 16.607 1.53809 17.5987L15.6592 31.7197C16.4729 32.5335 17.5994 33 18.75 33C19.9006 33 21.027 32.5335 21.8408 31.7197L31.7197 21.8408C32.5334 21.0271 32.9999 19.9006 32.9999 18.75C32.9999 17.5994 32.5335 16.4729 31.7197 15.6592ZM30.6592 20.7803L20.7803 30.6592C19.711 31.7285 17.7891 31.7285 16.7198 30.6592L2.59861 16.5381C1.89035 15.8298 1.49998 14.8879 1.49998 13.886V3.00003C1.49998 2.17315 2.17308 1.50005 2.99995 1.50005H13.886C14.888 1.50005 15.8299 1.89042 16.5381 2.59868L30.6592 16.7198C31.1939 17.2544 31.5 17.9942 31.5 18.75C31.5 19.5059 31.1939 20.2456 30.6592 20.7803Z" fill="#5FC400"/>
               <path d="M6.00002 3C4.3455 3 3 4.34543 3 6.00003C3 7.65462 4.3455 8.99998 6.00002 8.99998C7.65455 8.99998 9.00005 7.65455 9.00005 5.99995C9.00005 4.34536 7.65462 3 6.00002 3ZM6.00002 7.5C5.17315 7.5 4.50005 6.8269 4.50005 5.99995C4.50005 5.17308 5.17315 4.49998 6.00002 4.49998C6.8269 4.49998 7.5 5.17308 7.5 5.99995C7.50007 6.8269 6.82697 7.5 6.00002 7.5Z" fill="#5FC400"/>
@@ -46,7 +46,7 @@ const Main = () => {
             </span>
             <div>
               <p className='font-bold mb-1 text-sm
-              lg:text-base'>
+              lg:text-base dark:text-white'>
                 SEO
               </p>
               <p className='text-gray-400 text-xs
@@ -56,8 +56,9 @@ const Main = () => {
          </div>
          <div className='flex items-center gap-2'>
            <span className='bg-[#DAE6FF] rounded-xl
-           p-3 md:p-4'>
-             <svg width="33" height="33" viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+           p-3 md:p-4 dark:bg-[#00329B]/10'>
+             <svg width="33" height="33" viewBox="0 0 33 33" fill="none"
+             xmlns="http://www.w3.org/2000/svg">
               <g clipPath="url(#clip0_2_1082)">
               <path d="M15.8125 16.5C15.433 16.5 15.125 16.192 15.125 15.8125V8.9375C15.125 8.558 15.433 8.25 15.8125 8.25H17.875C19.3916 8.25 20.625 9.48337 20.625 11C20.625 12.5166 19.3916 13.75 17.875 13.75H16.5V15.8125C16.5 16.192 16.192 16.5 15.8125 16.5ZM16.5 12.375H17.875C18.634 12.375 19.25 11.7576 19.25 11C19.25 10.2424 18.634 9.625 17.875 9.625H16.5V12.375Z" fill="#00329B"/>
               <path d="M19.9376 16.5001C19.7616 16.5001 19.5856 16.4327 19.4508 16.2993L16.7008 13.5493C16.4327 13.2812 16.4327 12.8453 16.7008 12.5772C16.969 12.3091 17.4048 12.3091 17.673 12.5772L20.423 15.3272C20.6911 15.5953 20.6911 16.0312 20.423 16.2993C20.2896 16.4327 20.1136 16.5001 19.9376 16.5001Z" fill="#00329B"/>
@@ -78,7 +79,7 @@ const Main = () => {
             </span>
             <div>
               <p className='font-bold mb-1 text-sm
-              lg:text-base'>
+              lg:text-base dark:text-white'>
                 AV/VR Solutions
               </p>
               <p className='text-gray-400 text-xs
@@ -88,7 +89,7 @@ const Main = () => {
          </div>
          <div className='flex items-center gap-2'>
            <span className='bg-[#FFE5DA] rounded-xl
-           p-3 md:p-4'>
+           p-3 md:p-4 dark:bg-[#BB3800]/10'>
              <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M23.9062 0.53125H10.0938C9.53039 0.531988 8.99032 0.756108 8.59196 1.15446C8.19361 1.55282 7.96949 2.09289 7.96875 2.65625V31.3438C7.96949 31.9071 8.19361 32.4472 8.59196 32.8455C8.99032 33.2439 9.53039 33.468 10.0938 33.4688H23.9062C24.4696 33.468 25.0097 33.2439 25.408 32.8455C25.8064 32.4472 26.0305 31.9071 26.0312 31.3438V2.65625C26.0305 2.09289 25.8064 1.55282 25.408 1.15446C25.0097 0.756108 24.4696 0.531988 23.9062 0.53125ZM19.4862 1.59375L19.1874 2.65625H14.7588L14.4932 1.59375H19.4862ZM24.9688 31.3438C24.9684 31.6254 24.8563 31.8955 24.6571 32.0946C24.458 32.2938 24.1879 32.4059 23.9062 32.4062H10.0938C9.81207 32.4059 9.54203 32.2938 9.34286 32.0946C9.14368 31.8955 9.03162 31.6254 9.03125 31.3438V2.65625C9.03162 2.37457 9.14368 2.10453 9.34286 1.90536C9.54203 1.70618 9.81207 1.59412 10.0938 1.59375H13.3975L13.8284 3.31633C13.8572 3.43126 13.9235 3.53329 14.0169 3.6062C14.1102 3.67912 14.2253 3.71873 14.3438 3.71875H19.5898C19.7056 3.71875 19.8182 3.68093 19.9105 3.61104C20.0028 3.54116 20.0698 3.44303 20.1012 3.3316L20.5899 1.59375H23.9062C24.1879 1.59412 24.458 1.70618 24.6571 1.90536C24.8563 2.10453 24.9684 2.37457 24.9688 2.65625V31.3438Z" fill="#BB3800"/>
               <path d="M14.3438 30.2812H10.625C10.4841 30.2812 10.349 30.3372 10.2493 30.4368C10.1497 30.5365 10.0938 30.6716 10.0938 30.8125C10.0938 30.9534 10.1497 31.0885 10.2493 31.1882C10.349 31.2878 10.4841 31.3438 10.625 31.3438H14.3438C14.4846 31.3438 14.6198 31.2878 14.7194 31.1882C14.819 31.0885 14.875 30.9534 14.875 30.8125C14.875 30.6716 14.819 30.5365 14.7194 30.4368C14.6198 30.3372 14.4846 30.2812 14.3438 30.2812Z" fill="#BB3800"/>
@@ -100,7 +101,7 @@ const Main = () => {
             </span>
             <div>
               <p className='font-bold text-sm mb-1
-              lg:text-base'>
+              lg:text-base dark:text-white'>
                 Mobile Applications
               </p>
               <p className='text-gray-400 text-xs
@@ -109,7 +110,7 @@ const Main = () => {
             </div>
          </div>
       </div>
-      <h2 className='mb-4 text-neutral-900 font-bold
+      <h2 className='mb-4 text-neutral-900 font-bold dark:text-white
       text-2xl text-center'>Lorem Ipsum is simply dummy text of the printing.</h2>
       <p className='text-gray-400 text-sm lg:text-base
       text-center'>
@@ -165,12 +166,12 @@ const Main = () => {
                 </svg>
               </div>
               <div>
-                <p className='font-semibold text-sm mb-1'>Lorem Ipsum is simply dumy text</p>
+                <p className='font-semibold text-sm mb-1 dark:text-white'>Lorem Ipsum is simply dumy text</p>
                 <p className='text-xs text-gray-400'>Lorem Ipsum is simply dummt text</p>
               </div>
              </div>
              <div className='flex items-center gap-2 mb-3'>
-             <h3 className='text-xl font-bold'>
+             <h3 className='text-xl font-bold dark:text-white'>
               <span className='text-[#1090CB]'>Lorem Ipsum</span> is simply dummy text of the printing.
              </h3>
              <Image src={phoneImage} alt='phone'
@@ -180,7 +181,7 @@ const Main = () => {
               sm:w-40 z-25'/>
              </div>
               <p className='text-gray-500 w-full text-sm
-              md:text-base'>
+              md:text-base dark:text-gray-400'>
                 KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications and website builders measuring dozens of completed projects. We build and develop mobile applications for several top platforms, including Android  & IOS. 
              </p>
             </div>
@@ -193,7 +194,7 @@ const Main = () => {
               <div className="absolute left-30 -top-2
               w-60 h-60 rounded-full inset-0 z-0
               text-transparent bg-conic from-0% to-100%
-              via-50% via-[#DED9FF] blur-xl">.</div>
+              via-50% via-[#DED9FF] blur-xl dark:hidden">.</div>
             </div>
           </div>
           <div className='md:flex md:items-center gap-10 relative'>
@@ -201,7 +202,7 @@ const Main = () => {
             w-70 h-70 rounded-full inset-0 z-0
             text-transparent bg-conic from-0% to-100%
             via-50% via-[#F3FFD9] blur-xl
-            invisible md:visible">.</div>
+            invisible md:visible dark:hidden">.</div>
             <Image src={pageAnimation} alt='phone'
             width={738}
             height={511}
@@ -232,12 +233,12 @@ const Main = () => {
                 </svg>
               </div>
               <div>
-                <p className='font-semibold text-sm mb-1'>Lorem Ipsum is simply dumy text</p>
+                <p className='font-semibold text-sm mb-1 dark:text-white'>Lorem Ipsum is simply dumy text</p>
                 <p className='text-xs text-gray-400'>Lorem Ipsum is simply dummt text</p>
               </div>
              </div>
              <div className='flex items-center gap-2 mb-3'>
-             <h3 className='text-xl font-bold'>
+             <h3 className='text-xl font-bold dark:text-white'>
               <span className='text-[#1090CB]'>Lorem Ipsum</span> is simply dummy text of the printing.
              </h3>
              <Image src={pageAnimation} alt='phone'
@@ -247,7 +248,7 @@ const Main = () => {
               sm:w-40'/>
              </div>
               <p className='text-gray-500 w-full text-sm
-              md:text-base'>
+              md:text-base dark:text-gray-400'>
                 KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications and website builders measuring dozens of completed projects. We build and develop mobile applications for several top platforms, including Android  & IOS. 
              </p>
             </div>
@@ -279,12 +280,12 @@ const Main = () => {
                 </svg>
               </div>
               <div>
-                <p className='font-semibold text-sm mb-1'>Lorem Ipsum is simply dumy text</p>
+                <p className='font-semibold text-sm mb-1 dark:text-white'>Lorem Ipsum is simply dumy text</p>
                 <p className='text-xs text-gray-400'>Lorem Ipsum is simply dummt text</p>
               </div>
              </div>
              <div className='flex items-center gap-2 mb-3'>
-             <h3 className='text-xl font-bold'>
+             <h3 className='text-xl font-bold dark:text-white'>
               <span className='text-[#1090CB]'>Lorem Ipsum</span> is simply dummy text of the printing.
              </h3>
              <Image src={man} alt='phone'
@@ -294,7 +295,7 @@ const Main = () => {
               sm:w-40'/>
              </div>
               <p className='text-gray-500 w-full text-sm
-              md:text-base'>
+              md:text-base dark:text-gray-400'>
                 KODEX TECHNOLOGY (PVT) LTD is a team of experienced mobile and web applications and website builders measuring dozens of completed projects. We build and develop mobile applications for several top platforms, including Android  & IOS. 
              </p>
             </div>
@@ -306,7 +307,7 @@ const Main = () => {
               <div className="absolute -top-22 left-12
               w-55 h-55 rounded-full inset-0 -z-1
               text-transparent bg-conic from-0% to-100%
-              via-50% via-[#DED9FF] blur-xl">.</div>
+              via-50% via-[#DED9FF] blur-xl dark:hidden">.</div>
             </div>
             
           </div>
@@ -314,12 +315,12 @@ const Main = () => {
       <div className='flex flex-col md:flex-row gap-5
         items-center justify-center max-w-4xl mx-auto
         md:mt-23 -mt-14 mb-20'>
-          <div className='bg-[#F4F4F4] p-6 pt-14 rounded-lg
+          <div className='bg-[#F4F4F4] dark:bg-gray-900 p-6 pt-14 rounded-lg
           text-center'>
-            <h4 className='text-lg font-bold mb-4'>
+            <h4 className='text-lg font-bold mb-4 dark:text-white'>
               Lorem Ipsum is simply dummy text.
             </h4>
-            <p className='text-gray-500 text-sm mb-4'>
+            <p className='text-gray-500 text-sm mb-4 dark:text-gray-400'>
               KODEX TECHNOLOGY (PVT) LTD is a team of
               experienced mobile and web applications
               and website builders measuring dozens of
@@ -328,12 +329,12 @@ const Main = () => {
               including Android & IOS.
             </p>
             <button className='bg-[#1090CB] py-2 px-3
-            text-white rounded-lg cursor-pointer
+            text-white rounded-lg cursor-pointer dark:bg-[#095376]
             text-sm'>
               View More
             </button>
           </div>
-          <div className='bg-[#1090CB] p-6 pt-14 rounded-lg
+          <div className='bg-[#1090CB] dark:bg-[#095376] p-6 pt-14 rounded-lg
           text-center text-white relative z-25'>
             <Image src={bell} alt='bell'
             width={58.26}
@@ -351,7 +352,7 @@ const Main = () => {
               mobile applications for several top platforms,
               including Android & IOS.
             </p>
-            <button className='bg-white py-2 px-3
+            <button className='bg-white dark:bg-gray-900 py-2 px-3
             text-[#1090CB] rounded-lg cursor-pointer
             text-sm'>
               View More
@@ -361,9 +362,10 @@ const Main = () => {
       <div>
       </div>
       <div className='max-w-7xl mx-auto w-full'>
-          <h4 className='text-black mb-1 text-center'>
+          <h4 className='text-black dark:text-white mb-1 text-center z-25'>
           You will be in good company</h4>
-          <div className='flex items-center justify-between'>
+          <div className='flex items-center justify-between dark:bg-white/10
+          dark:px-3 dark:rounded-sm'>
             <Image src={beShop} alt='company'
             width={46}
             height={46}
@@ -385,11 +387,11 @@ const Main = () => {
       <div className="absolute left-[73%] top-[80%]
        w-65 h-65 rounded-full inset-0 z-0 md:top-[70%]
        text-transparent bg-conic from-0% to-100%
-       via-50% via-[#FFD9EB] blur-xl">.</div>
+       via-50% via-[#FFD9EB] blur-xl dark:hidden">.</div>
        <div className="absolute -left-15 top-[90%]
        w-70 h-70 rounded-full inset-0 z-0 md:top-[80%]
        text-transparent bg-conic from-0% to-100%
-       via-50% via-[#FAFFD9] blur-xl">.</div>
+       via-50% via-[#FAFFD9] blur-xl dark:hidden">.</div>
     </section>
   )
 }
