@@ -18,11 +18,11 @@ const SubscriptionForm = () => {
         text of printing.
        </h3>
        <div className='flex items-center
-        justify-center gap-3 w-80 sm:w-full'>
+        justify-center gap-3 w-full'>
             <input type="email"
             placeholder="Enter your email"
-            className='py-3 px-4 bg-white rounded-lg
-            text-sm w-sm dark:bg-[#282828]/60 dark:text-gray-400'/>
+            className='py-3 px-4 bg-white rounded-lg w-full
+            text-sm sm:w-sm dark:bg-[#282828]/60 dark:text-gray-400'/>
             <button className='bg-black py-3 px-4
              text-sm text-white uppercase rounded-lg
              cursor-pointer dark:bg-white dark:text-black'>Subscribe
